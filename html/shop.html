@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--display scale-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FutureTech online shop</title>
+        <!--css-->
+        <link rel="stylesheet" href="..\css\mainc.css"> 
+        <!--g fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+        <!--jquery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <!--icons-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <header>
+            <nav class="menu">
+                <ul class="menu">
+                    <li>
+                        <a href="main.html" class="transition">Home</a>
+                    </li>
+                    <li>
+                            <a id="date" style="margin-left: 1200px;"></a>
+                    </li>
+                </ul>
+                <a href="#" id="toggle-btn">Menu</a>
+            </nav>
+        </header>
+
+        <div id="ShopHead" class="section">
+            <div class="container">
+                <div class="ShopHead-content">
+                    <div>
+                        <h1><i class="fa fa-shopping-cart" area-hidden="true"></i>Welcome to the shop</h1>
+                        <p><i class="fa fa-circle-o" area-hidden="true"></i>Thousands of users have made the right choice, do the same. Here you can choose the category that suits you and choose your companion for each day. <br />
+                            <i class="fa fa-circle" area-hidden="true"></i>In case of any questions or errors, you can contact support or follow the link with contacts on the home page. <br />
+                            <i class="fa fa-circle-o" area-hidden="true"></i>Have a nice day and enjoy your shopping. <br />
+                            <i class="fa fa-circle" area-hidden="true"></i>Scroll down and choose what you like.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="..\images\1itemshop.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="item_box" class="section" style="margin-left: 10px">
+            <div class="container">
+            <div class="item_box-content">
+            <table>
+                <tr style="align-content: center; text-align: center;">
+                    <td>
+                        <a href="phones.php?sort=price-desc" class="transition"><img src="..\images\4item.jpg" alt=""></a>
+                        <p><i class="fa fa-mobile-phone" area-hidden="true"></i>SmartPhones</p>
+                    </td>
+        
+                    <td>
+                        <a href="laptops.php?sort=price-desc" class="transition"><img src="..\images\5item.jpg" alt=""></a>
+                        <p><i class="fa fa-laptop" area-hidden="true"></i>Laptops</p>
+                    </td>
+        
+                    <td>
+                        <a href="acessories.php?sort=price-desc" class="transition"><img src="..\images\6item.jpg" alt=""></a>
+                        <p><i class="fa fa-plug" area-hidden="true"></i>Accessories</p>
+                    </td>
+                </tr>
+
+                <tr style="align-content: center; text-align: center;">
+                    <td>
+                        <a href="watches.php?sort=price-desc" class="transition"><img src="..\images\1item.jpg" alt=""></a>
+                        <p><i class="fa fa-clock-o" area-hidden="true"></i>Watches</p>
+                        <!--<b href="">Purchase</b>-->
+                    </td>
+
+                    <td>
+                        <a href="tvs.php?sort=price-desc" class="transition"><img src="..\images\2item.jpg" alt=""></a>
+                        <p><i class="fa fa-tv" area-hidden="true"></i>TVs</p>
+                    </td>
+
+                    <td>
+                        <a href="headphones.php?sort=price-desc" class="transition"><img src="..\images\3item.jpg" alt=""></a>
+                        <p><i class="fa fa-headphones" area-hidden="true"></i>HeadPhones</p>
+                    </td>
+                </tr>
+            </table>
+            </div>
+            </div>
+        </div>
+        <script src="..\scripts\mainj.js"></script>
+    </body>
+</html>
